@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NeuroKick for CHROs - Board-Ready Leadership ROI</title>
+    <title>NeuroKick for HR - Board-Ready Leadership ROI</title>
     <meta name="description" content="Finally answer the board's question: Is our leadership investment working? Get measurable ROI on your $2M+ leadership budget.">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -12,7 +12,7 @@
     <!-- Header -->
     <header class="site-header">
         <div class="container">
-            <div class="logo"><a href="index.html">Neuro<span>Kick</span></a></div>
+            <div class="logo" id="logo-cycler" style="cursor: pointer;">Neuro<span>Kick</span></div>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -29,7 +29,7 @@
     <!-- Hero -->
     <section class="hero">
         <div class="container">
-            <span class="stakeholder-header" style="background: white; color: var(--primary-blue);">FOR CHROs</span>
+            <span class="stakeholder-header" style="background: white; color: var(--primary-blue);">FOR HR</span>
             <h1 style="margin-top: 1rem;">Board-Ready<br>Leadership ROI</h1>
             <p class="subtitle">Finally answer: "Is our leadership investment working?"</p>
             <p>Stop showing training completion rates.<br>Start showing measurable business impact.</p>
@@ -43,7 +43,7 @@
     <!-- The Problem -->
     <section class="bg-white">
         <div class="container">
-            <h2 class="text-center">The CHRO's Nightmare</h2>
+            <h2 class="text-center">The HR Leader's Nightmare</h2>
             <p class="text-center text-orange" style="font-size: 1.5rem; font-weight: 600; margin-bottom: 3rem;">"We spent $2M on leadership development. What did we get?"</p>
             
             <div class="card-grid">
@@ -79,7 +79,7 @@
     <!-- What NeuroKick Delivers -->
     <section class="bg-light">
         <div class="container">
-            <h2 class="text-center">What NeuroKick Delivers for CHROs</h2>
+            <h2 class="text-center">What NeuroKick Delivers for HR</h2>
             
             <div class="card-grid">
                 <div class="card">
@@ -136,13 +136,13 @@
     <!-- Case Study -->
     <section>
         <div class="container">
-            <h2 class="text-center">How TechCo's CHRO Got Her Win</h2>
+            <h2 class="text-center">How TechCo's HR Leader Got Her Win</h2>
             
             <div class="testimonial">
                 <div class="testimonial-quote">
                     "For three years, the board kept asking me to prove our leadership investment was working. I had nothing but anecdotes. With NeuroKick, I showed them a 28% reduction in regretted attrition, connected directly to manager behavior change. We got budget approval for year two in 10 minutes."
                 </div>
-                <div class="testimonial-author">Sarah Chen, CHRO</div>
+                <div class="testimonial-author">Sarah Chen, HR Leader</div>
                 <div class="testimonial-role">TechCo, 150 managers, $4.2M retention savings</div>
             </div>
 
@@ -244,7 +244,7 @@
     <!-- Why Now -->
     <section>
         <div class="container">
-            <h2 class="text-center">Why CHROs Are Adopting NeuroKick Now</h2>
+            <h2 class="text-center">Why HR Leaders Are Adopting NeuroKick Now</h2>
             
             <div class="card-grid">
                 <div class="card">
@@ -313,12 +313,12 @@
     <section class="cta-section">
         <div class="container">
             <h2>Ready to Show the Board Real ROI?</h2>
-            <p>Schedule a 30-minute demo tailored for CHROs. See how NeuroKick delivers the metrics you need.</p>
+            <p>Schedule a 30-minute demo tailored for HR leaders. See how NeuroKick delivers the metrics you need.</p>
             <div class="btn-group">
-                <a href="mailto:demo@neurokick.ai" class="btn btn-primary">Schedule CHRO Demo</a>
+                <a href="mailto:demo@neurokick.ai" class="btn btn-primary">Schedule HR Demo</a>
                 <a href="pricing.html" class="btn btn-secondary">See Pricing</a>
             </div>
-            <p style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.9;">Most CHROs see ROI in their first board meeting. Average implementation: 2 weeks.</p>
+            <p style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.9;">Most HR leaders see ROI in their first board meeting. Average implementation: 2 weeks.</p>
         </div>
     </section>
 
@@ -337,7 +337,7 @@
                 <div class="footer-section">
                     <h4>For Teams</h4>
                     <ul>
-                        <li><a href="chro.html">CHROs</a></li>
+                        <li><a href="chro.html">HR</a></li>
                         <li><a href="ld.html">Learning & Development</a></li>
                         <li><a href="talent.html">Talent Management</a></li>
                         <li><a href="managers.html">Managers</a></li>
@@ -364,5 +364,20 @@
             </div>
         </div>
     </footer>
+    <script>
+        // Easter egg: Click logo to cycle through pages
+        const logoCycler = document.getElementById('logo-cycler');
+        const pages = ['index.html', 'chro.html', 'ld.html', 'managers.html'];
+        const currentPage = 'chro.html';
+        const currentIndex = pages.indexOf(currentPage);
+        const nextIndex = (currentIndex + 1) % pages.length;
+
+        if (logoCycler) {
+            logoCycler.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.location.href = pages[nextIndex];
+            });
+        }
+    </script>
 </body>
 </html>

@@ -12,7 +12,7 @@
     <!-- Header -->
     <header class="site-header">
         <div class="container">
-            <div class="logo">Neuro<span>Kick</span></div>
+            <div class="logo" id="logo-cycler" style="cursor: pointer;">Neuro<span>Kick</span></div>
             <nav>
                 <ul>
                     <li><a href="#problem">The Problem</a></li>
@@ -140,7 +140,7 @@
             
             <div class="card-grid">
                 <div class="card">
-                    <span class="stakeholder-header">For CHROs</span>
+                    <span class="stakeholder-header">For HR</span>
                     <h3>Board-Ready Leadership ROI</h3>
                     <p>Finally answer: "Is our leadership investment working?"</p>
                     <ul class="feature-list">
@@ -331,7 +331,7 @@
                 <div class="footer-section">
                     <h4>For Teams</h4>
                     <ul>
-                        <li><a href="chro.html">CHROs</a></li>
+                        <li><a href="chro.html">HR</a></li>
                         <li><a href="ld.html">Learning & Development</a></li>
                         <li><a href="talent.html">Talent Management</a></li>
                         <li><a href="managers.html">Managers</a></li>
@@ -361,5 +361,20 @@
             </div>
         </div>
     </footer>
+    <script>
+        // Easter egg: Click logo to cycle through pages
+        const logoCycler = document.getElementById('logo-cycler');
+        const pages = ['index.html', 'chro.html', 'ld.html', 'managers.html'];
+        const currentPage = 'index.html';
+        const currentIndex = pages.indexOf(currentPage);
+        const nextIndex = (currentIndex + 1) % pages.length;
+
+        if (logoCycler) {
+            logoCycler.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.location.href = pages[nextIndex];
+            });
+        }
+    </script>
 </body>
 </html>

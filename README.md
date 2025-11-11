@@ -17,13 +17,13 @@ A complete website structure that translates the NeuroKick positioning strategy 
    - Privacy messaging
    - CTA sections
 
-2. **chro.html** - CHRO Landing Page
+2. **chro.html** - HR Landing Page
    - Board-ready ROI focus
-   - "The CHRO's Nightmare" problem framing
+   - "The HR Leader's Nightmare" problem framing
    - Specific value props for executive leadership
    - TechCo case study with numbers
    - ROI calculator (200 managers example)
-   - Why CHROs are adopting now
+   - Why HR leaders are adopting now
 
 3. **managers.html** - Manager Landing Page
    - **Privacy-first messaging** (critical for adoption)
@@ -76,7 +76,7 @@ A complete website structure that translates the NeuroKick positioning strategy 
 **Key Sections:**
 1. Hero - Core positioning for all audiences
 2. Stats - Immediate credibility (28% reduction, 92% adoption)
-3. Problem - The $2M question every CHRO faces
+3. Problem - The $2M question every HR leader faces
 4. How It Works - Simple 3-step explanation
 5. Stakeholder Cards - Gateway to personalized pages
 6. Comparison Table - vs. 360s, exit interviews (status quo)
@@ -90,9 +90,9 @@ A complete website structure that translates the NeuroKick positioning strategy 
 
 ---
 
-### CHRO Page (chro.html)
+### HR Page (chro.html)
 
-**Challenge Solved:** Give CHROs board-ready metrics and defensible ROI
+**Challenge Solved:** Give HR leaders board-ready metrics and defensible ROI
 
 **Key Sections:**
 1. Hero - "Board-Ready Leadership ROI"
@@ -184,7 +184,7 @@ A complete website structure that translates the NeuroKick positioning strategy 
 
 ### Voice & Tone:
 
-**For Executives (CHRO page):**
+**For Executives (HR page):**
 - Tone: Confident, data-driven, business-focused
 - Language: ROI, board meetings, P&L, metrics
 - Avoid: Soft language, vague promises, academic speak
@@ -240,8 +240,8 @@ Each page includes:
 - Leadership ROI
 - Real-time leadership data
 
-**CHRO:**
-- CHRO leadership metrics
+**HR:**
+- HR leadership metrics
 - Board-ready HR analytics
 - Leadership investment ROI
 - Manager quality scores
@@ -301,7 +301,7 @@ Each page includes:
 - Test: Stats above fold vs. problem statement first
 - Test: Single CTA vs. multiple entry points
 
-**CHRO Page:**
+**HR Page:**
 - Test: ROI calculator at top vs. case study first
 - Test: "$4.2M savings" vs. "8.25x ROI" emphasis
 - Test: Board meeting story vs. pure numbers
@@ -314,12 +314,12 @@ Each page includes:
 ### Metrics to Track:
 
 **By Stakeholder:**
-- CHRO page → Demo requests from title "CHRO" or similar
+- HR page → Demo requests from title "HR" or similar
 - Manager page → Time on privacy section, scroll depth
 - Homepage → Which stakeholder card gets most clicks
 
 **Overall:**
-- Homepage → CHRO page conversion rate
+- Homepage → HR page conversion rate
 - Homepage → Manager page conversion rate
 - Demo request conversion rate by source page
 - Time to demo request (days from first visit)
@@ -402,7 +402,7 @@ neurokick-website/
 
 **Email Campaigns:**
 - Link to homepage for cold outreach
-- Link to chro.html for CHRO-targeted campaigns
+- Link to chro.html for HR-targeted campaigns
 - Link to managers.html when addressing adoption concerns
 
 **Demo Follow-up:**
@@ -419,7 +419,7 @@ neurokick-website/
 
 **LinkedIn Ads:**
 - Homepage for broad awareness
-- chro.html for title-targeted (CHRO, VP People)
+- chro.html for title-targeted (HR, VP People)
 - managers.html for manager-focused content
 
 **Content Marketing:**
@@ -429,14 +429,14 @@ neurokick-website/
 
 **SEO:**
 - Target "leadership ROI" → homepage
-- Target "CHRO metrics" → chro.html
+- Target "HR metrics" → chro.html
 - Target "manager feedback tools" → managers.html
 
 ### For Product/UX:
 
 **User Research:**
 - Time on privacy section = concern indicator
-- CHRO page visits = economic buyer interest
+- HR page visits = economic buyer interest
 - Manager page visits = user adoption research needed
 
 **Feature Prioritization:**
@@ -462,7 +462,7 @@ neurokick-website/
 
 **Case Studies:**
 - Replace TechCo with variety (RetailCorp, FinServ)
-- Show different use cases (CHRO-led, L&D-led, Talent-led)
+- Show different use cases (HR-led, L&D-led, Talent-led)
 - Demonstrate scalability (50 managers → 500 managers)
 
 ### Monitor & Respond:

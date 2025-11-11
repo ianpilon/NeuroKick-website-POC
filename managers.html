@@ -12,11 +12,11 @@
     <!-- Header -->
     <header class="site-header">
         <div class="container">
-            <div class="logo"><a href="index.html">Neuro<span>Kick</span></a></div>
+            <div class="logo" id="logo-cycler" style="cursor: pointer;">Neuro<span>Kick</span></div>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="chro.html">For CHROs</a></li>
+                    <li><a href="chro.html">For HR</a></li>
                     <li><a href="ld.html">For L&D</a></li>
                     <li><a href="talent.html">For Talent</a></li>
                     <li><a href="pricing.html">Pricing</a></li>
@@ -361,7 +361,7 @@
                 <div class="card">
                     <h3>If Your Company Doesn't Have It</h3>
                     <ol style="padding-left: 1.5rem;">
-                        <li style="margin-bottom: 1rem;">Share this page with your CHRO or L&D leader</li>
+                        <li style="margin-bottom: 1rem;">Share this page with your HR or L&D leader</li>
                         <li style="margin-bottom: 1rem;">Email demo@neurokick.ai with "Manager interested"</li>
                         <li style="margin-bottom: 1rem;">Request to be in first pilot group</li>
                         <li style="margin-bottom: 1rem;">Help bring better tools to your company</li>
@@ -399,7 +399,7 @@
                 <div class="footer-section">
                     <h4>For Teams</h4>
                     <ul>
-                        <li><a href="chro.html">CHROs</a></li>
+                        <li><a href="chro.html">HR</a></li>
                         <li><a href="ld.html">Learning & Development</a></li>
                         <li><a href="talent.html">Talent Management</a></li>
                         <li><a href="managers.html">Managers</a></li>
@@ -426,5 +426,20 @@
             </div>
         </div>
     </footer>
+    <script>
+        // Easter egg: Click logo to cycle through pages
+        const logoCycler = document.getElementById('logo-cycler');
+        const pages = ['index.html', 'chro.html', 'ld.html', 'managers.html'];
+        const currentPage = 'managers.html';
+        const currentIndex = pages.indexOf(currentPage);
+        const nextIndex = (currentIndex + 1) % pages.length;
+
+        if (logoCycler) {
+            logoCycler.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.location.href = pages[nextIndex];
+            });
+        }
+    </script>
 </body>
 </html>
