@@ -48,7 +48,7 @@ A complete website structure that translates the NeuroKick positioning strategy 
 **Homepage Hero:**
 - "Stop Guessing. Start Measuring."
 - Leads with outcome, not technology
-- Addresses the "$2M leadership investment" question immediately
+- Addresses the leadership investment ROI question immediately
 
 **Pain-First Approach:**
 - Every stakeholder page starts with THEIR specific pain
@@ -76,7 +76,7 @@ A complete website structure that translates the NeuroKick positioning strategy 
 **Key Sections:**
 1. Hero - Core positioning for all audiences
 2. Stats - Immediate credibility (28% reduction, 92% adoption)
-3. Problem - The $2M question every HR leader faces
+3. Problem - The accountability question every HR leader faces
 4. How It Works - Simple 3-step explanation
 5. Stakeholder Cards - Gateway to personalized pages
 6. Comparison Table - vs. 360s, exit interviews (status quo)
@@ -111,7 +111,7 @@ A complete website structure that translates the NeuroKick positioning strategy 
 
 **KD Principles Applied:**
 - Make Money: "$3.7M annual value"
-- Escape Pain: "Stop defending the $2M investment"
+- Escape Pain: "Stop defending the leadership investment without data"
 - Gain Praise: "Board presentation went from defensive to offensive"
 - Save Time: "Caught 47 issues early" (vs. post-exit damage control)
 
